@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+   
+}
+html
+{
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+body
+{
+    line-height:normal;
+    font-size:16px;
+    overflow-x: hidden;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+:root
+{
+    --patrickblue:#1D247B;
+    --darkimperialblue:#111974;
+    --feiryrose:#F25476;
+    --white:#FFFFFF;
+    --bluejeans:#53A1F6;
+}
+.content-wrapper
+{
+    max-width: 1210px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.pink-btn
+{
+    background-color: var(--feiryrose);
+    color: var(--white);
+    padding: 21.77px 39.84px 27.38px 33.3px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: .3s all;
+    display: inline-block;
+}
+.pink-btn:hover
+{
+    background-color: transparent;
+    color: var(--feiryrose);
+    border: 2px solid var(--feiryrose);
+}
+.trans-btn
+{
+    background-color: transparent;
+    color: var(--white);
+    padding: 21.77px 39.84px 27.38px 33.3px;
+    border: 2px solid var(--white);
+    transition: .3s all;
+    display: inline-block;
+    border-radius: 10px;
+}
+.trans-btn:hover
+{
+    background-color: var(--white);
+    color: var(--darkimperialblue);
+    border: 2px solid var(--darkimperialblue);
+}
+.icon-btn
+{
+    padding: 13px 17px;
+    color: var(--white);
+    background-color: var(--darkimperialblue);
+    border-radius: 10px;
+    display: inline-block;
+}
+h1
+{
+font-weight: 700;
+font-size: 80px;
+line-height: 98px;
+text-transform: capitalize;
+}
+p
+{
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+}
+a
+{
+    font-size:16px;
+    font-weight: 700;
+    line-height:20px ;
+}
