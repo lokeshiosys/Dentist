@@ -20,6 +20,7 @@ body
     overflow-x: hidden;
     font-family: 'Montserrat';
     font-style: normal;
+    word-break: break-word;
 }
 :root
 {
